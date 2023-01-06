@@ -4,6 +4,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+section {
+    margin-top: 130px;
+}
+
 .btn-primary {
     height: 60px;
     border-radius: 5px;
@@ -15,13 +19,14 @@
     padding: 15px 30px;
 
 }
-.header{
+
+.header {
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
     background-size: 600px 350px, 90px 650px;
-    
+
 }
 
 nav {
@@ -48,62 +53,104 @@ nav ul {
 .text-primary {
     color: #fd6e0a;
 }
+
 /* Banner Styles */
-.banner{
+.banner {
     margin: 0 35px 0 200px;
     display: flex;
     align-items: center;
 }
-.banner-title{
+
+.banner-title {
     font-weight: 700;
     font-size: 85px;
     margin-bottom: 20px;
 
 }
-.banner-subtitle{
+
+.banner-subtitle {
     font-weight: 600;
     font-size: 45px;
     margin-bottom: 5px;
 }
-.banner-des{
+
+.banner-des {
     color: #757575;
     margin-bottom: 30px;
 }
+
 /* About Section Style */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
-.about{
-    margin-top: 130px;
+
+.about {
+    /* margin-top: 130px; */
     background-color: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    
+
 }
-.section-title{
-    margin-bottom: 30px;
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 35px;
 }
-.section-description{
+
+.section-description {
     color: #757575;
     font-size: 18;
     margin-bottom: 30px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about .info{
+
+.about .info {
     font-size: 20px;
     color: #757575;
     font-weight: 700;
     margin-bottom: 10px;
 }
-.description{
-    font-weight:700 ;
+
+.description {
+    font-weight: 700;
     font-size: 20px;
     color: #474747;
 }
+
+/* 
+What I Do Styles */
+/* .what-i-do{
+    margin-top: 130px;
+} */
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    color: #757575;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+/* Resume Styles */
